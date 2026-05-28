@@ -1,0 +1,6 @@
+{
+  "name": "Typing Website",
+  "description": "An elegant, offline-friendly speed typing application offering 1, 3, and 5-minute modes, dynamic vocabulary generation, micro-growth sound synthesizers, and complete statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@450;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  --font-serif: "Arial", sans-serif;
+  --font-mono: "Arial", sans-serif;
+
+  --color-brand-bg: #E4E3E0;
+  --color-brand-dark: #141414;
+  --color-brand-accent: #FF4E00;
+  --color-brand-muted: #14141480;
+}
+
+/* Custom subtle scrollbar styling to fit the retro terminal style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #E4E3E0;
+  border-left: 1.5px solid #141414;
+}
+::-webkit-scrollbar-thumb {
+  background: #141414;
+  border: 1.5px solid #E4E3E0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4E00;
+}
